@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taranpreet Kaur</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script defer src="js/darkmodetoggle.js"></script>
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <div class="left-section">
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML5</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+            </ul>
+        </div>
+        <div class="right-section">
+            <button data-bs-theme-value="dark" onclick="setDarkMode()">Dark</button>
+            <button data-bs-theme-value="light" onclick="setLightMode()">Light</button>
+            <button>Contact Me</button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="grid-container">
+        <div class="left">
+            <p>Square calculator using closure.<br>Result = base²<br>(e.g., 5² = 25).</p>
+
+            <button id="calcBtn">Enter</button>
+        </div>
+        <div class="right">
+            <input type="number" id="numInput" placeholder="Enter a number">
+            <div id="resultScreen"></div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>Square Calculator © 2025</p>
+</footer>
